@@ -1,8 +1,14 @@
+import Form from "./components/Form";
+import Header from "./components/Header";
+import PatientList from "./components/PatientList";
+
 function App() {
   return (
-    <>
-      <h1>Hola mundo</h1>
-    </>
+    <div className="container mx-auto">
+      <Header />
+      <Form />
+      <PatientList />
+    </div>
   );
 }
 
